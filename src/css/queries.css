@@ -1,0 +1,76 @@
+/* 1em = 1rem = 16px */
+
+/* ------------------- */
+/* BELOW 1344px --- smaller desktops */
+/* ------------------- */
+
+@media (max-width: 84em) {
+  html {
+    font-size: 85%;
+  }
+
+  .payment-modal__form {
+    width: 65%;
+  }
+  .payment-modal__summary {
+    width: 25%;
+  }
+}
+
+/* ------------------- */
+/* BELOW 1200px --- smaller desktops */
+/* ------------------- */
+
+@media (max-width: 75em) {
+  html {
+    /* font-size: 56.25%; */
+  }
+
+  .payment-modal__form {
+    width: 60%;
+  }
+  .payment-modal__summary {
+    width: 27%;
+  }
+}
+
+/* ------------------- */
+/* BELOW 944px --- Tablets */
+/* ------------------- */
+
+@media (max-width: 59em) {
+  .html {
+    /* font-size: 50%; */
+  }
+
+  .payment-modal {
+    flex-direction: column;
+    align-items: center;
+    gap: 13rem;
+    height: 700px;
+    width: 95%;
+  }
+
+  .payment-modal__form {
+    width: 85%;
+  }
+  .payment-modal__summary {
+    display: none;
+  }
+
+  .payment-page {
+  }
+}
+
+/* ------------------- */
+/* BELOW 704px --- Smaller Tablets */
+/* ------------------- */
+@media (max-width: 44em) {
+}
+
+/* ------------------- */
+/* BELOW 544px --- Phones*/
+/* ------------------- */
+
+@media (max-width: 43em) {
+}

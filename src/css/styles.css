@@ -1,0 +1,455 @@
+.payment-page {
+  /* background-color: #f1f1f1; */
+  color: #343a40;
+
+  background-image: url("../images/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-modal {
+  position: absolute;
+
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+
+  border-radius: 4px;
+
+  width: 85%;
+  /* height: 70%; */
+
+  padding: 2.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.payment-modal__form {
+  /* background-color: aliceblue; */
+
+  width: 70%;
+}
+
+.payment-modal__summary {
+  background-color: #f1f1f1;
+  width: 25%;
+}
+
+/*  */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__container {
+  background-color: #228be6;
+
+  height: 50px;
+  width: 50px;
+  margin-right: 0.4rem;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PAYEMNT MODAL FORM */
+
+.payment-modal__form--header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 3.2rem;
+}
+
+.payment-modal__form--inputs {
+  margin-bottom: 1.6rem;
+}
+
+.time {
+  display: flex;
+}
+
+.time__box {
+  width: 35px;
+  height: 40px;
+
+  border-radius: 4px;
+
+  background-color: #212529;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time__box:not(:last-child) {
+  margin-right: 0.2rem;
+}
+
+.date-separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 10px;
+  height: 40px;
+
+  margin-right: 0.2rem;
+}
+
+.form-input__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1.2rem;
+}
+
+.form-input__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  border: 1px solid #dee2e6;
+  background-color: #f1f1f142;
+
+  border-radius: 11px;
+
+  padding: 5px;
+}
+
+.img-icon {
+  width: 25px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+
+  padding: 10px;
+
+  background-color: transparent;
+  color: #343a40;
+  text-align: center;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.input:focus {
+  outline: none;
+}
+.input::placeholder {
+  color: #adb5bd;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+/* 
+
+
+*/
+.d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  width: 50%;
+}
+
+/* ??? */
+.icon {
+  color: whitesmoke;
+
+  transform: rotateX();
+}
+
+.icon-two {
+  color: #adb5bd;
+}
+
+.input-icon {
+  font-size: 1.4rem;
+}
+.action-link {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.action-link__text {
+  color: #228be6;
+}
+
+/* ??? */
+
+.input.input-two {
+  background-color: #fff;
+}
+
+/*  */
+
+.info {
+  width: 50%;
+}
+
+.info-input {
+  width: 50%;
+}
+
+/* ???
+
+
+
+?????*/
+
+.btn-container {
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+  background-color: #228be6;
+  color: #fff;
+
+  letter-spacing: 1px;
+
+  width: 100%;
+
+  padding: 1.2rem;
+
+  border: none;
+  border-radius: 11px;
+
+  cursor: pointer;
+}
+
+/* TOGGLE */
+.toggle {
+  display: none !important;
+
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: #f1f1f1;
+}
+
+/* PAYMENT SUMMARY */
+
+.payment-modal__summary {
+  position: relative;
+  border-radius: 14px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.enum-container {
+  width: 80%;
+  height: 310px;
+  margin: 0 auto;
+  padding-bottom: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.enum {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enum small {
+  margin-bottom: 0.4rem;
+}
+
+.enum-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding-top: 1.2rem;
+}
+
+/* //
+
+
+
+//*/
+
+.divider {
+  border: 1px dashed #ccc;
+}
+
+.amount {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.apple {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.apple-icon__container {
+  height: 20px;
+  width: 20px;
+  background-color: #212529;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CREDIT CARD  */
+
+.credit-card {
+  /* display: none; */
+
+  position: absolute;
+  top: -15%;
+  right: 10%;
+  /* transform: translate(50%, -50%); */
+
+  background-color: #fff;
+
+  width: 80%;
+  /* height: 250px; */
+
+  border-radius: 16px;
+
+  border: 1px solid #cccccc3c;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.023);
+
+  margin: 0 auto;
+
+  padding: 1.2rem;
+
+  transform: translateY(-60px);
+
+  background: rgba(255, 255, 255, 0.67);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+}
+
+.chip {
+  height: 80px;
+  transform: rotate(90deg);
+  transform: translateX(-34px) rotate(90deg);
+  border-radius: 50%;
+}
+
+.signal-icon {
+  height: 25px;
+  transform: rotate(270deg);
+
+  opacity: 0.9;
+}
+
+.credit-card__signal {
+  margin-bottom: 3rem;
+}
+
+.credit-card__info {
+  margin-bottom: 2rem;
+}
+
+.info-number {
+  display: flex;
+  gap: 1.2rem;
+
+  margin-top: 0.8rem;
+}
+
+.credit-card__signal,
+.credit-card__exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.master-card-two {
+  height: 50px;
+}
+
+.indicator {
+  position: absolute;
+  top: -130px;
+  left: 35%;
+  /* left: 105px; */
+
+  border-radius: 6px;
+
+  height: 40px;
+  width: 90px;
+  background-color: #228be6;
+}
+
+/*  */
+
+.divider-container {
+  position: relative;
+}
+
+/* CIRCLE */
+.circle__one,
+.circle__two {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+
+  top: -25px;
+}
+
+.circle__one {
+  left: -25px;
+}
+
+.circle__two {
+  right: -25px;
+}

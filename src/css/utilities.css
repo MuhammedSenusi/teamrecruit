@@ -1,0 +1,19 @@
+.text-bold {
+  font-weight: 900;
+}
+
+.text-light {
+  font-weight: 400;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-dark {
+  color: #343a40;
+}
+
+.bg-white {
+  background-color: #fff;
+}

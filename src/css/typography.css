@@ -1,0 +1,50 @@
+/* Typography Styles */
+
+body {
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset margin and padding for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset margin and padding for list items */
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset default styling for anchor tags */
+a {
+  text-decoration: none;
+}
+
+/* Set default link color */
+a {
+  color: #007bff;
+}
+
+/* Set hover style for links */
+a:hover {
+  text-decoration: underline;
+}
+
+small {
+  color: #868e96;
+}
